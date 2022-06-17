@@ -12,7 +12,7 @@ public class Runner {
          src/resources/file3 file3
          */
     public static void main(String[] args) throws IOException {
-        System.out.println("ENTER WAY TO FILE & IT'S NAME  through a space: ");
+        System.out.println("ENTER WAY TO FILE & IT'S NAME  THROUGH A SPACE:");
 
         Reader.read();
         System.out.println(Reader.scanArray + "  <- ScanArray with ENTER");
