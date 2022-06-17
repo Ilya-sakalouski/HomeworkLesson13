@@ -15,12 +15,18 @@ public class Runner {
         System.out.println("ENTER WAY TO FILE & IT'S NAME  through a space: ");
 
         Reader.read();
-        System.out.println(Reader.scanArray);
-        System.out.println(Reader.waysArray);
-        System.out.println(Reader.namesArray);
-        System.out.println(Reader.namesArray.size());    //  ПРОБЛЕМА ТУТ...
+        System.out.println(Reader.scanArray + "  <- ScanArray with ENTER");
+        System.out.println(Reader.scanArray.size() + "  <- ScanArray with ENTER");
+        System.out.println(Reader.scanArray2 + "  <- ScanArray without ENTER");
+        System.out.println(Reader.scanArray2.size() + "  <- ScanArray without ENTER");
+        System.out.println(Reader.waysArray + "  <- Array of WAYS to files");
+        System.out.println(Reader.namesArray + "  <- Array of NAMES of files");
+        System.out.println(Reader.namesArray.size() + "  <- Array of NAMES (SIZE)");
 
         Validator.readAndValidateFile();
-        System.out.println(Validator.docHashSet);
+        System.out.println("HashSet of DOCUMENTS:");
+        Validator.hashSetToString();
+        System.out.println("HashMap of DOCUMENTS:");
+        Validator.hashMapToString();
     }
 }
