@@ -16,9 +16,9 @@ public class Runner {
 
         Reader.read();
         System.out.println(Reader.scanArray + "  <- ScanArray with ENTER");
-        System.out.println(Reader.scanArray.size() + "  <- ScanArray with ENTER");
+        System.out.println(Reader.scanArray.size() + "  <- ScanArray with ENTER (SIZE)");
         System.out.println(Reader.scanArray2 + "  <- ScanArray without ENTER");
-        System.out.println(Reader.scanArray2.size() + "  <- ScanArray without ENTER");
+        System.out.println(Reader.scanArray2.size() + "  <- ScanArray without ENTER (SIZE)");
         System.out.println(Reader.waysArray + "  <- Array of WAYS to files");
         System.out.println(Reader.namesArray + "  <- Array of NAMES of files");
         System.out.println(Reader.namesArray.size() + "  <- Array of NAMES (SIZE)");
